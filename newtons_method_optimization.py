@@ -138,10 +138,8 @@ if __name__ == '__main__':
     plt.ylabel('x2')
     nm()
     sd(alpha=0.0002)
-    es()
     plt.show()
 
     # import timeit
     # print(timeit.timeit("nm()", setup="from __main__ import nm", number=10))
     # print(timeit.timeit("sd()", setup="from __main__ import sd", number=10))
-    # print(timeit.timeit("es()", setup="from __main__ import es", number=10))

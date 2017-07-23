@@ -35,7 +35,7 @@ def test_with_scipy(f, df, x0s, e):
 
 if __name__ == '__main__':
     # run test
-    x0s= [0, .5, 1]    
+    x0s = [0, .5, 1]    
     test_with_scipy(f, df, x0s, 1e-5)
         
     for x0 in x0s:
